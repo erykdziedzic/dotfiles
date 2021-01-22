@@ -1,0 +1,18 @@
+# Make Tab autocomplete regardless of filename case
+set completion-ignore-case on
+
+# List all matches in case multiple possible completions are possible
+set show-all-if-ambiguous on
+
+# Show all autocomplete results at once
+set page-completions off
+
+# Immediately add a trailing slash when autocompleting symlinks to directories
+set mark-symlinked-directories on
+
+set skip-completed-text on
+
+# set editing-mode vi
+
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
