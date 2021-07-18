@@ -7,7 +7,7 @@ complete -W 'run-android start log-android' react-native
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 export REPO_OS_OVERRIDE=linux
 # export ANDROID_SDK_ROOT=$HOME/Android/Sdk
-export JAVA_HOME="/usr/lib/jvm/jdk1.8.0_221"
+# export JAVA_HOME="/usr/lib/jvm/jdk1.8.0_221"
 export PATH=~/.npm-global/bin:$PATH
 export PATH=~/Android/Sdk/emulator:$PATH
 export PATH=/usr/local/lib/nodejs/node-v14.15.0-linux-x64/bin:$PATH
@@ -34,6 +34,7 @@ alias backend="docker build -t backend ~/projects/backend/ && docker-compose -f 
 export BACKEND_CONFIG=../config.cfg
 
 #tizonia
+alias spotify-nordic-ambient="tizonia --spotify-playlist-id=64QW49W0KDnAYcrXmSCkUq"
 alias spotify-beats="tizonia --spotify-playlist-id=37i9dQZF1DXa2SPUyWl8Y5"
 alias spotify-coding="tizonia --spotify-playlist-id=5SgJR30RfzR5hO21TsQhBp"
 alias spotify-programming="tizonia --spotify-playlist-id=2mtlhuFVOFMn6Ho3JmrLc2"
@@ -92,3 +93,8 @@ alias dokcer=docker
 
 alias killpoly="pgrep polybar | xargs bash -c 'echo $0'"
 export WIDGET_API_DATA_DIR=~/projects/widget-api-data/data/
+
+alias praskacze=$HOME/praskacze
+alias pgadmin4="sudo /usr/pgadmin4/bin/setup-web.sh"
+
+export PATH=$PATH:~/terraform

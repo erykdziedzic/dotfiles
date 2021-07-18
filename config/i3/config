@@ -258,3 +258,4 @@ exec setxkbmap -layout pl,pl
 # exec_always xrandr --output HDMI1 --auto
 # exec_always xrandr --output eDP1 --off
 #--right-of eDP1 
+exec echo Xft.dpi: 96 | xrdb -merge

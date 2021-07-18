@@ -273,3 +273,14 @@ let g:coc_global_extensions = [
     \ 'coc-pairs',
     \ 'coc-json',
     \ ]
+
+" bash
+au Filetype sh setl
+    \ tabstop=2
+    \ softtabstop=2
+    \ shiftwidth=2
+    \ expandtab
+
+" yaml
+au FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+let g:indentLine_char = '⦙'
