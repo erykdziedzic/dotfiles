@@ -3,3 +3,5 @@ vim/.vim/plugged
 config/tizonia
 config/ranger/history
 config/ranger/bookmarks
+
+.DS_Store
