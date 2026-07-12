@@ -6,3 +6,4 @@ abbr -a --set-cursor gcam "git commit -am '%'"
 
 set -gx ANDROID_HOME $HOME/Library/Android/sdk
 set -gx PATH $PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator
+alias wispr "whisper --model tiny.en -f txt --language en --fp16 False"
